@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - injectedMonkey.php-fpm
+    - role_under_test
