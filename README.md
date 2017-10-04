@@ -30,9 +30,9 @@ for your environment.
 Role Variables
 --------------
 
-composer:
-  path: /usr/local/bin
-  self_update: true
+      composer:
+        path: /usr/local/bin
+        self_update: true
 
 
 
